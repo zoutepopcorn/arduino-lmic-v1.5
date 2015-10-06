@@ -72,10 +72,10 @@ static osjob_t sendjob;
 
 // Pin mapping
 lmic_pinmap pins = {
-  .nss = 10,
-  .rxtx = 7, // Not connected on RFM92/RFM95
-  .rst = 9,  // Needed on RFM92/RFM95
-  .dio = {2, 5, 6},
+  .nss = D8,
+  .rxtx = D9, // Not connected on RFM92/RFM95
+  .rst = D4,  // Needed on RFM92/RFM95
+  .dio = {D1, D2, 10},
 };
 
 void onEvent (ev_t ev) {
