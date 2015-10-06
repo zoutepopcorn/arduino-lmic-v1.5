@@ -23,7 +23,7 @@
  * for SX1276 and RFM95.
  *
  *******************************************************************************/
-
+#include <ESP8266WiFi.h>
 #include <lmic.h>
 #include <hal/hal.h>
 #include <SPI.h>
